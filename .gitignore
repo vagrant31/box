@@ -1,16 +1,33 @@
-.mymetadata
-.checkstyle
-.classpath
+*.class
+
+#package files
+
+*.war
+*.ear
+
+#kdiff3 ignore
+target/
+
+#eclipse ignore
+.settings/
 .project
-.class
-.war
-.zip
-.rar
-.idea
+.classpath
+
+#idea
+.idea/
+/idea/
+*.ipr
 *.iml
-.settings/*
-/indexes/*
-/target/*
-/src/main/webapp/WEB-INF/classes/*
-/src/main/webapp/userfiles/*
-/target/
+*.iws
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
